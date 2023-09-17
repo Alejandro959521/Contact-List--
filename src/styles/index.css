@@ -1,3 +1,11 @@
-/* 
+/*
     General Styles
 */
+.imagenperfil {
+   height:220px;
+   width:220px;
+    border-radius: 50%;  
+    object-fit: cover; 
+
+  
+}

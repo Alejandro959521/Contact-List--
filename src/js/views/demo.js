@@ -33,11 +33,11 @@ export const Demo = () => {
 						</li>
 					);
 				})}
-			</ul>
+			</ul>     
 			<br />
 			<Link to="/">
-				<button className="btn btn-primary">Back home</button>
-			</Link>
+				<span className="primary">Back home</span>              
+			</Link>  
 		</div>
 	);
 };
