@@ -18,6 +18,7 @@ function Card({ data }) {
   const handleId = (id) => {
 
     store.id = id
+    
     console.log("esto es store id", store.id)
 
   }

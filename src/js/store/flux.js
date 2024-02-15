@@ -54,7 +54,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 					if (response.ok) {
 						const body = await response.json()
 						setStore({ Contacts: body })
-						console.log("positivo")
+						console.log("positivo",body)
 
                                
 					} else alert("Error al traer los contactos")

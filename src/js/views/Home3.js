@@ -8,11 +8,15 @@ import {Context} from "../store/appContext"
 
 export const Home3 = () => {
 	const { store, actions } = useContext(Context)
+	
+	const result = store.Contacts.filter((item) => item.id === store.id);
+	
+
 	const [valor, setValor] = useState({
-		full_name: "",
-		email: "",
-		phone: "",
-		address: "",
+		full_name: result[0].full_name,
+		email: result[0].email,
+		phone: result[0].phone,
+		address: result[0].address,
 		agenda_slug: "alejandro959521"
 
 	})
