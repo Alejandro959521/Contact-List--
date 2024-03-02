@@ -6,7 +6,7 @@ import "../../styles/index.css";
 
 function Card({ data }) {
 
-  const { store, actions } = useContext(Context);
+  const { store, actions } =   useContext(Context);
 
   const handleDeleteContact = () => {
     
